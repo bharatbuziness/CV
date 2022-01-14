@@ -5,6 +5,7 @@ module.exports = {
       "cdn-icons-png.flaticon.com",
       "images.unsplash.com",
       "images.pexels.com",
+      "images.ctfassets.net",
     ],
   },
 };

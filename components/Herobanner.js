@@ -3,7 +3,7 @@ import "keen-slider/keen-slider.min.css";
 import { useKeenSlider } from "keen-slider/react"; // import from 'keen-slider/react.es' for to get an ES module
 import Image from "next/image";
 
-const HeroBanner = () => {
+function HeroBanner() {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [loaded, setLoaded] = useState(false);
   const [sliderRef, instanceRef] = useKeenSlider({
@@ -111,7 +111,7 @@ const HeroBanner = () => {
       )}
     </>
   );
-};
+}
 
 function Arrow(props) {
   const disabeld = props.disabled ? " arrow--disabled" : "";
