@@ -9,7 +9,7 @@ function AboutS() {
         </h1>
       </div>
       <div className='flex flex-wrap md:flex-wrap md:flex-row lg:flex-nowrap justify-center gap-14 px-20 py-12'>
-        <div className='text-justify shrink w-1/2'>
+        <div className='text-justify shrink sm:w-3/4 w-full md:w-3/4 lg:w-1/2'>
           <p className='lg:text-xl text-md py-2 transition text-black'>
             Crest Valuation Services (CVS) is a part of Crest Advisors
             Group(CAG) being a full service Valuation Firm. We cater to full
