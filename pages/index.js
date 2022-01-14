@@ -2,7 +2,7 @@ import Head from "next/head";
 // import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import Header from "../components/Header";
-import HeroBanner from "../components/HeroBanner";
+import HeroBanner from "../components/Herobanner";
 import AboutS from "../components/AboutS";
 import Services from "../components/Services";
 import Stats from "../components/Stats";
