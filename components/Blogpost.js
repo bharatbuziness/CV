@@ -26,7 +26,7 @@ function Blogpost({ post }) {
             </div>
           </div>
         </div>
-        <div className='w-[230px] h-[174px] relative'>
+        <div className='hidden md:block w-[230px] h-[174px] relative'>
           <Image src={`https:${url}`} layout='fill' alt='blog-image' />
         </div>
       </div>
