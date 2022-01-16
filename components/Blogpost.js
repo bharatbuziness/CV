@@ -7,7 +7,7 @@ function Blogpost({ post }) {
   const { title, slug, author, category, subtitle, image } = post.fields;
   const { url } = image.fields.file;
   const date = moment(post.sys.updateAt).utc().format("MM/DD/YYYY");
-  console.log(date);
+  // console.log(image);
   return (
     <>
       <Link href={"/blogs/" + slug}>
@@ -31,7 +31,7 @@ function Blogpost({ post }) {
                 </div>
               </div>
               <div className='hidden md:block w-[230px] h-[174px] relative'>
-                <Image src={`https:${url}`} layout='fill' alt='blog-image' />
+                <Image src={`https:/${url}`} layout='fill' alt='blog-image' />
               </div>
             </div>
           </div>
