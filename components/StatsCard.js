@@ -6,7 +6,7 @@ function StatsCard({ num, desc }) {
         {/* <div className='w-0 h-0 border-[80px] border-transparent border-b-[#48C7EC] relative -top-[80px] after:content-[""] after:absolute after:-left-[80px] after:top-[80px] after:w-0 after:h-0 after:border-[80px] after:border-transparent after:border-t-[#48C7EC]' /> */}
         {/* <div className='absolute top-[145px] left-0 right-0 text-center mx-auto text-white'> */}
         <p className='font-bold text-[2.2rem] text-center'>
-          <CountUp start={0} end={num} duration={3} />+
+          <CountUp start={0} end={num} duration={8} />+
         </p>
         {/* </div> */}
         <p className='mt-1 text-center'>{desc}</p>

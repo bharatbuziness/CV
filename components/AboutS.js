@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 function AboutS() {
   return (
@@ -23,9 +24,13 @@ function AboutS() {
             we have brought clarity to difficult and complex valuation
             situations and to provide defendable reports.
           </p>
-          <button className='text-sm sm:text-lg font-bold my-3 border-white rounded-full px-8 py-3 hover:shadow-xl active:scale-90 shadow-md hover:border-[#48C7EC] border-2 hover:bg-white transition duration-150 ease-linear bg-white text-[#48C7EC]'>
-            Know More
-          </button>
+          <Link href='/about'>
+            <a>
+              <button className='text-sm sm:text-lg font-bold my-3 border-white rounded-full px-8 py-3 hover:shadow-xl active:scale-90 shadow-md hover:border-[#48C7EC] border-2 hover:bg-white transition duration-150 ease-linear bg-white text-[#48C7EC]'>
+                Know More
+              </button>
+            </a>
+          </Link>
         </div>
         <div className='flex justify-center shrink'>
           <Image

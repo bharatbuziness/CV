@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "keen-slider/keen-slider.min.css";
 import { useKeenSlider } from "keen-slider/react"; // import from 'keen-slider/react.es' for to get an ES module
 import Image from "next/image";
+import Link from "next/link";
 
 function HeroBanner() {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -33,9 +34,13 @@ function HeroBanner() {
               <p className='text-sm sm:text-xl'>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               </p>
-              <button className='text-sm sm:text-lg text-[#48C7EC] bg-white px-8 py-3 shadow-md rounded-full font-bold my-3 hover:shadow-xl active:scale-90 transition duration-150'>
-                Lorem, ipsum.
-              </button>
+              <Link href='/about'>
+                <a>
+                  <button className='text-sm sm:text-lg text-[#48C7EC] bg-white px-8 py-3 shadow-md rounded-full font-bold my-3 hover:shadow-xl active:scale-90 transition duration-150'>
+                    Lorem, ipsum.
+                  </button>
+                </a>
+              </Link>
             </div>
           </div>
           <div className='keen-slider__slide number-slide2'>

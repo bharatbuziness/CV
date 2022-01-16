@@ -134,3 +134,9 @@
 #blog-sec {
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 }
+
+/* @media screen and (max-width: 360px) {
+  #blog-img {
+    width: 260px;
+  }
+} */
