@@ -10,6 +10,7 @@ import {
   FaInstagram,
   FaTwitter,
 } from "react-icons/fa";
+import Skeleton from "../../components/Skeleton";
 
 const client = createClient({
   space: process.env.CONTENTFUL_SPACE_ID,
@@ -47,7 +48,7 @@ export async function getStaticProps({ params }) {
 
 function Blog({ post }) {
   if (!post) {
-    return <div>Loading...</div>;
+    return <Skeleton />;
   }
   const { title, author, category, image, content } = post.fields;
   const { url } = image.fields.file;
