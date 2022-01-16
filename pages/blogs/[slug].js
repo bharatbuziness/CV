@@ -1,4 +1,3 @@
-import Head from "next/Head";
 import Header from "../../components/Header";
 import { createClient } from "contentful";
 import moment from "moment";
