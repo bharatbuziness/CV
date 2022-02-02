@@ -1,32 +1,33 @@
-/* eslint-disable jsx-a11y/alt-text */
-/* eslint-disable @next/next/no-img-element */
 import Heading from "./Heading";
-import { useKeenSlider } from "keen-slider/react";
-// import "keen-slider/keen-slider.min.css";
 import Image from "next/image";
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
+import p1 from "../assets/p1.png";
+import p2 from "../assets/p2.png";
+import p3 from "../assets/p3.png";
+import p4 from "../assets/p4.png";
+import p5 from "../assets/p5.png";
 
 const datas = [
   {
     id: 1,
-    url: "https://cdn-icons-png.flaticon.com/512/3800/3800024.png",
+    url: p1,
   },
   {
     id: 2,
-    url: "https://cdn-icons.flaticon.com/png/512/2504/premium/2504903.png?token=exp=1643823286~hmac=b851e92fea185cdc041b314a4733cf2c",
+    url: p2,
   },
   {
     id: 3,
-    url: "https://cdn-icons.flaticon.com/png/512/2504/premium/2504929.png?token=exp=1643823606~hmac=dd34e73981b97fff951e10a29044f196",
+    url: p3,
   },
   {
     id: 4,
-    url: "https://cdn-icons.flaticon.com/png/512/3670/premium/3670157.png?token=exp=1643823606~hmac=4956ff2f4b85e9f2c361776f69d22166",
+    url: p4,
   },
   {
     id: 5,
-    url: "https://cdn-icons.flaticon.com/png/512/3536/premium/3536559.png?token=exp=1643823606~hmac=732bff6af0e3f7a5d35834f1069123eb",
+    url: p5,
   },
 ];
 
