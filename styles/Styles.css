@@ -140,3 +140,13 @@
     width: 260px;
   }
 } */
+
+.keen-slider__slide#partner {
+  max-height: 120px !important;
+  max-width: 150px !important;
+  min-width: 150px !important;
+  border-radius: 20px;
+  margin-left: 30px;
+  object-fit: cover;
+  background-color: #fff;
+}

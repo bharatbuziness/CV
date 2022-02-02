@@ -1,15 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
+import Heading from "./Heading";
 
 function AboutS() {
   return (
     <div className='mx-auto mt-14'>
-      <div className='block text-center my-5'>
-        <h1 className='text-white mx-auto relative inline-block z-50 text-center text-3xl sm:text-6xl before:block before:-z-50 before:absolute before:-inset-1 before:-skew-y-3 before:bg-[#48C7EC]'>
-          About Us
-        </h1>
-      </div>
-      <div className='flex flex-wrap md:flex-wrap md:flex-row lg:flex-nowrap justify-center gap-14 px-20 py-12'>
+      <Heading heading={"About Us"} bg_white={true} />
+      <div className='flex flex-wrap md:flex-wrap md:flex-row lg:flex-nowrap justify-center gap-14 px-8 py-12'>
         <div className='text-justify shrink sm:w-3/4 w-full md:w-3/4 lg:w-1/2'>
           <p className='lg:text-xl text-md py-2 transition text-black'>
             Crest Valuation Services (CVS) is a part of Crest Advisors
