@@ -9,6 +9,9 @@ import Stats from "../components/Stats";
 import Blogsection from "../components/Blogsection";
 
 import { createClient } from "contentful";
+import Projects from "../components/Projects";
+import Partners from "../components/Partners";
+import Footer from "../components/Footer";
 export async function getStaticProps() {
   const client = createClient({
     space: process.env.CONTENTFUL_SPACE_ID,
@@ -40,6 +43,9 @@ export default function Home({ posts }) {
       <Services />
       <Stats />
       <Blogsection posts={posts} />
+      <Projects />
+      <Partners />
+      <Footer />
     </div>
   );
 }

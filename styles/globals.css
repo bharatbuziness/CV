@@ -1,6 +1,7 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
+@import "react-alice-carousel/lib/alice-carousel.css";
 @layer base {
   body {
     /* @apply bg-[#06202A] text-gray-300; */

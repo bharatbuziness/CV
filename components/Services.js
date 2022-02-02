@@ -4,16 +4,13 @@ import {
   ScaleIcon,
   CashIcon,
 } from "@heroicons/react/outline";
+import Heading from "./Heading";
 import ServiceCard from "./ServiceCard";
 
 function Services() {
   return (
     <div className='mx-auto mt-14 py-14 bg-[url("../db.png")]'>
-      <div className='block text-center my-5'>
-        <h1 className='text-white mx-auto relative inline-block z-50 text-center text-3xl sm:text-6xl before:block before:-z-50 before:absolute before:-inset-1 before:-skew-y-3 before:bg-[#48C7EC]'>
-          What We Do
-        </h1>
-      </div>
+      <Heading heading={"What We Do"} bg_white={false} />
       <div className='flex gap-4 justify-around px-20 py-16 flex-wrap'>
         <ServiceCard
           Icon={ChartPieIcon}
