@@ -44,7 +44,7 @@ function Partners() {
     1250: { items: 5 },
   };
   return (
-    <div className='mx-auto mt-14'>
+    <div className='mt-14 mx-auto'>
       <Heading heading={"Our Partners"} bg_white={true} />
 
       <div className='relative mt-20'>
