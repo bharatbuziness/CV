@@ -31,7 +31,7 @@ function Blogpost({ post }) {
                 </div>
               </div>
               <div className='hidden md:block w-[235px] h-[174px] relative'>
-                <Image src={`https:/${url}`} layout='fill' alt='blog-image' />
+                <Image src={`https:${url}`} layout='fill' alt='blog-image' />
               </div>
             </div>
           </div>
